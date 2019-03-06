@@ -1,0 +1,30 @@
+img{
+    width: 100%;
+
+}
+.item-img-small{
+    max-width: 100px;
+}
+.item-img-min{
+    display: flex;
+    justify-content: space-evenly;
+}
+.item-img-max{
+    height: 300px;
+}
+#item-max{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.single-item-card h1 a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #2d2d2d;
+}
+.item-img-small .active{
+    background: #ccc5;
+}
+.active{
+    background: #ccc5;
+}
